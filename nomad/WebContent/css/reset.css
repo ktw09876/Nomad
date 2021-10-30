@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family:nbg;	
+	src:url(../fonts/NanumBarunGothic.eot);
+	src:local(' '), url(../fonts/NanumBarunGothic.woff) format('woff');
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'nbg', sans-serif; font-size:15px; color:#333; }
+
+ul { list-style:none; }
+a, a:hover, a:active { text-decoration:none; outline:none; } 
+/* outline:none; 익스플로러 브라우저에서 클릭하면 점이 생기는 현상을 방지 */
+.clear { clear:both; }
+
+.h30 { height:30px; }
+.h50 { height:50px; }
+.h100 { height:100px; }
+.h150 { height:150px; }
+.h200 { height:200px; }

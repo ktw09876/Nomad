@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+
+body { background:#E8E8E8; }
+
+
+h2.member {
+	width:100%; height:100px; padding-top:30px;
+	font-family: 'Crimson Text', serif; font-size:42px; color:#2585FF; font-style:italic;
+	font-weight:800; text-align:center;
+}
+h2.member .text-title { color:#0B2161; }
+
+
+.welcome { width:300px; margin:30px auto; text-align:center; }
+form{ height:550px; }
+
+
+ul.member { list-style:none; width:310px; margin:0 auto; }
+ul.member li { padding:5px 0; text-align:center; }
+ul.member li:last-child { margin-top:30px; }
+
+
+.m-btn { width:100px; height:35px; }
+.check-input { float:left; width:195px; }
+.check-btn { float:right; width:95px; }
+.text-birth { float:left; padding-top:8px; }
+.input-birth { width:262px; float:right; }
+.btn-zipcode { float:left; width:95px; margin:10px 0 0 5px; }
+.btn-g { width:300px; margin-left:100px; }
+
+.class-btn{ margin-top:30px; }
+
+
+
+

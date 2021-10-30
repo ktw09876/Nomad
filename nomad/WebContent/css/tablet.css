@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+nav {
+		position:fixed; left:0; top:0; width:100%; height:60px;
+		background:#000; z-index:99; 
+	}
+	nav #trigger { 
+		position:absolute; left:30px; top:50%;
+        width:30px; height:26px; margin-top:-13px;
+	}
+	nav #trigger span { 
+		display:block; position:absolute; left:0; width:100%; height:2px; 
+		background:#fff;
+        transition:all 0.4s ease-in;
+	}
+	nav #trigger span:nth-child(1) { top:0; width:100% }
+	nav #trigger span:nth-child(2) { top:13px; width:80% }
+	nav #trigger span:nth-child(3) { bottom:0; width:60% }
+	
+	nav h1{ 
+		position:absolute; left:50%; top:-5px;
+		width:155px; height:25px; margin-left:-77px;
+	}
+	
+	.topmenu { 
+		position:absolute; right:30px; top:15px; 
+		width:120px; height:40px;
+	}
+	.topmenu li{ float:left; width:60px; height:40px; margin:0; padding:0; text-align:right; }	
+	.topmenu li a { display:block; margin:0; padding:0; color:#FFF; font-size:25px; }
+	.topmenu li a:hover { color:#0068b7; }
+	
+	
+
+.flexslider { margin-top:60px; }
+
+
+/* footer */
+    footer{ 
+    width:100%; height:80px; margin-top:50px;
+    background:rgba(202,66,42,1); 
+}
+
+    footer .ft-wrap{ width:610px; left:50%; margin:0 auto; }
+    .ft-wrap h2{ float:left; width:155px; margin-top:30px; }
+    .ft-wrap .addr{ 
+        float:right; width:260px; margin-top:25px;
+        font-size:13px;  color:#fff;
+    }
